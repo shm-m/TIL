@@ -212,6 +212,7 @@ private ObjectMapper objectMapper = new ObjectMapper();
 ```
 
 `objectMapper` : Jackson을 통해 JSON 결과를 파싱할 객체
+
 `readValue()` : messageBdoy에 담긴 JSON 타입의 데이터를 자바 객체로 변환
 
 result)

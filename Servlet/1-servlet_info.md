@@ -19,7 +19,7 @@
 - 개발자는 Request 객체에서 제공하는 HTTP 요청 정보를 편리하게 꺼내서 사용하고, 비즈니스 로직을 구현한뒤, Response 객체에 응답 정보를 입력하면 된다. 이후 Response 객체에 담겨있는 내용으로 WAS가 HTTP 응답 정보를 생성한다.
 - 이런 실행 환경에서 개발자는 WAS에서 제공하는 요청 & 응답 개념 위에서 비즈니스 로직에 집중하면 됨
 
-![web_application_req_res_architecture](/assets/Servlet/servlet_info_1.png)
+![web_application_req_res_architecture](/assets/Servlet/servlet_info_1.PNG)
 
 ###### 출처 : 인프런 김영한 Spring MVC 1
 
