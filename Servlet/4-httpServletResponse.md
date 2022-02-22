@@ -92,8 +92,11 @@ response.addCookie(cookie);
 // response.setHeader("Location", "/basic/hello-form.html");
 
 response.sendRedirect("/basic/hello-form.html");
-
 ```
+
+![redirect_status](/assets/Servlet/redirect_status.PNG){: width="5%" height="5%"}
+
+##### 서버 구동 시 상태코드 값
 
 <br>
 
