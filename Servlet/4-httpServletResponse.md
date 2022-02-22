@@ -94,7 +94,7 @@ response.addCookie(cookie);
 response.sendRedirect("/basic/hello-form.html");
 ```
 
-![redirect_status](/assets/Servlet/redirect_status.PNG){: width="5%" height="5%"}
+<img src="/assets/Servlet/redirect_status.png" width="20%" height="20%"/>
 
 ##### 서버 구동 시 상태코드 값
 
