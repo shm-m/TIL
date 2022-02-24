@@ -145,7 +145,7 @@ System.out.println("messageBody = " + messageBody);
 
 postman으로 전달 시 `Content-Type`을 `text/plain`으로 지정.
 
-`inputStream`의 경우 byte 코드를 반환하기 때문에 String으로 변환해야한다.
+`inputStream`의 경우 byte 코드를 반환하기 때문에 `copyToString()` 메서드를 통해 String으로 변환해야한다.
 
 이 때 `문자표(Charset)`을 지정해줘야 함 -> utf-8
 
