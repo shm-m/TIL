@@ -112,7 +112,7 @@ System.out.println("number의 현재값: " + number); // 3
 
 ```java
 System.out.println("number의 현재값: " + number); // 3
-System.out.println("++number: " + number++); // 3
+System.out.println("number++: " + number++); // 3
 System.out.println("number의 현재값: " + number); // 4
 ```
 
