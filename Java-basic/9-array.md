@@ -211,6 +211,13 @@ int arr3 = Arrays.copyOfRange(arr1, 2, 5); // = {3, 4, 0, 0, 0}
 
 `fill()` 메소드의 경우 모든 요소를 지정된 값으로 채울 수 있음.
 
+```java
+int arr = new int[5];
+Arrays.fill(arr, 2); // arr = {2,2,2,2,2};
+
+Arrays.setAll(arr, i -> (int) ((Math.random() * 3) + 1));
+```
+
 <br>
 
 #### 3. 배열의 정렬과 검색
@@ -222,6 +229,13 @@ int arr3 = Arrays.copyOfRange(arr1, 2, 5); // = {3, 4, 0, 0, 0}
 
 `binarySearch()`의 경우 정렬된 배열을 넣어야 올바른 결과를 얻을 수 있음
 
+```java
+int[] arr = { 2, 3 ,1 };
+Arrays.sort(arr);  // arr ={ 1, 2, 3 };
+
+int a = Arrays.binarySearch(arr, 2); // a = 3;
+```
+
 <br>
 
 #### 4. 배열의 비교와 출력
@@ -231,6 +245,16 @@ int arr3 = Arrays.copyOfRange(arr1, 2, 5); // = {3, 4, 0, 0, 0}
 
 다차원 배열일 경우 `toString`이 아닌 `deepToString()` 사용
 
+```java
+int[] arr1 = { 1, 2, 3 };
+int[] arr2 = { 0, 0, 0};
+
+System.out.println(Arrays.equals(arr1, arr2)); // = false
+
+int[][] arr3 = { {1, 2}, {3, 4} };
+System.out.println(Arrays.deepToString(arr3)); // = [[1, 2], [3, 4]]
+```
+
 <br>
 
 #### 5. 배열 to 리스트
@@ -238,3 +262,8 @@ int arr3 = Arrays.copyOfRange(arr1, 2, 5); // = {3, 4, 0, 0, 0}
 - `Arrays.toList(배열 or 요소나열)`
 
 단 `toList()` 메소드가 반환하는 리스트는 크기를 변경할 수 없음. 크기를 변경하고 싶은경우 `ArrayList`로 변환 후 사용.
+
+```java
+int[] arr = { 1, 3, 5 };
+List list = new ArrayList(Arrays.toList(arr));
+```
