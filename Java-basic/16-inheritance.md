@@ -67,7 +67,7 @@ class Tiger extends Mammal {
 }
 ```
 
-예를 들어 부모 클래스인 `Mammal`과 이를 상속한 `Tiger`이 있다면, "Tiger은 Mammal이다."라고 말할 수 있다. 이를 **IS-A** 관계라고 하며, 자식 클래스의 인스턴스의 데이터 타입을 부모클래스로 설정할 수 있다.
+예를 들어 부모 클래스인 `Mammal`과 이를 상속한 `Tiger`이 있다면, "Tiger은 Mammal이다."라고 말할 수 있다. 이를 **IS-A** 관계라고 하며, 자식 클래스 타입의 인스턴스의 참조 변수를 부모 클래스로 설정 가능하다.
 
 ```java
 Mammmal t = new Tiger();
